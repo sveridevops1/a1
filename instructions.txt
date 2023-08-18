@@ -1,0 +1,15 @@
+//Installation
+sudo apt-get update
+sudo apt-get install git
+//working
+create folder and got that folder 
+ mkdir <foldername> cd <foldername>
+ git init
+ git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+ create files using any editor 
+ git status
+ git add <file name> 
+ git commit -m "<message>" 
+ git remote add <name> <git repo address/url>
+ git push <name> master
